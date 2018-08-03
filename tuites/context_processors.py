@@ -1,4 +1,3 @@
 def eu(request):   
-    return (
-        'eu' : 'lucas'
-    )
+    return {'eu' : 'lucas'}
+    
