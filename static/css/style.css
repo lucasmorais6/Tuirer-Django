@@ -1,5 +1,5 @@
 body {
-    background: #fff
+    background: #fff;
     font-size: 1.3em;
     font-family: "Source Sans Pro", "Segoe UI", Helvetica, sans-serif;
     margin: 0;
@@ -95,64 +95,63 @@ input[type="submit"]:hover {
     color: inherit;
 }
 
-.card:hover {
-    cursor: pointer;
-    transform: translateY(-1px);
-}
+    .card:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+    }
 
-.card p {
-    margin: 0 0 5px;
-}
+    .card p {
+        margin: 0 0 5px;
+    }
 
-.card hr {
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
+    .card hr {
+        border: 0;
+        border-bottom: 1px solid #ccc;
+    }
 
-.card .content {
-    padding: 5px 0;
-    font-family: serif;
-}
+    .card .content {
+        padding: 5px 0;
+        font-family: serif;
+    }
 
-.card .author {
-    font-size: .8em;
-    font-weight: bold;
-    color: #555;
-    text-decoration: none;
-    text-align: left;
-    display: flex;
-    align-items: center;
-}
+    .card .author {
+        font-size: .8em;
+        font-weight: bold;
+        color: #555;
+        text-decoration: none;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
 
-.card .author:hover {
-    text-decoration: underline;
-}
+        .card .author:hover {
+            text-decoration: underline;
+        }
 
-.card .author .author-avatar {
-    width: 30px;
-    height: 30px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin-right: 5px;
-    background-size: cover;
-    background-position: center;
-}
+        .card .author .author-avatar {
+            width: 30px;
+            height: 30px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin-right: 5px;
+            background-size: cover;
+            background-position: center;
+        }
 
-.card .author-and-likes {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+        .card .author-and-likes {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-.card .author-and-likes .likes {
-    font-size: .85em;
-    color: palevioletred;
-}
+            .card .author-and-likes .likes {
+                font-size: .85em;
+                color: palevioletred;
+            }
 
 .site-hero {
     padding: 20px 300px;
     min-height: 100px;
-    /* background-image: url('../img/tuiting.jpg'); */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -165,47 +164,78 @@ input[type="submit"]:hover {
     margin-bottom: 15px;
 }
 
-.site-hero h2 {
-    margin: 0 0 5px;
-}
+    .site-hero h2 {
+        margin: 0 0 5px;
+    }
 
-.site-hero .overlay {
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,.5);
-}
+    .site-hero .overlay {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,.5);
+    }
 
-.site-hero .content {
-    z-index: 2;
-}
-
-.post-tuite-container {
-    width: 800px;
-    margin: 15px auto;
-}
-
-.post-tuite-container input {
-    width: 100%;
-}
-
-.post-tuite-container input[type="text"] {
-    outline: 2px solid deepskyblue;
-}
-
-
-.profile-picture {
-    width: 100px;
-    height: 100px;
-    background: gray;
-    background-size: cover;
+    .site-hero .content {
+        z-index: 2;
+    }
+    
+    .post-tuite-container {
+        width: 800px;
+        margin: 15px auto;
+    }
+    
+    .post-tuite-container input {
+        width: 100%;
+    }
+    
+    .post-tuite-container input[type="text"] {
+        outline: 2px solid deepskyblue;
+    }
+    
+    
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+        background: gray;
+        background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
 }
+.copy{
+    padding-left: 10px;
+}
+
+#mady{
+    padding-right: 10px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card .date-created {
+    font-size: .8em;
+    color: gray;
+}
+
+.card .likes {
+    font-size: .7em;
+    color: gray;
+}
+
+.card .likes > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 footer{
     width: 100%;
     height: 75px;
@@ -215,28 +245,4 @@ footer{
     align-items: center;
     justify-content: space-between;
     font-family: 'Source Sans Pro', sans-serif;
-}
-.copy{
-    padding-left: 10px;
-}
-#mady{
-    padding-right: 10px;
-}
-.icone{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-content: space-between;
-}
-.card .date-created {
-    font-size: .8em;
-    color: gray;
-}
- .card .likes {
-    font-size: .7em;
-    color: gray;
-}
- .card .likes > a {
-    text-decoration: none;
-    color: inherit;
 }
